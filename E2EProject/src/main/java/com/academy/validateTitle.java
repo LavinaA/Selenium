@@ -16,12 +16,14 @@ public class validateTitle extends Base {
 	@Test
 	
 	public void basePageNavigation() throws IOException{
+		
 		driver=initializeDriver();
 		driver.get("http://www.qaclickacademy.com/");
 		LandingPage lp=new LandingPage(driver);
 		//compare value from actualand expeted
 		System.out.println(lp.getTitle().getText());
 		Assert.assertEquals(lp.getTitle().getText(), "FEATURED COURSES");
+		System.out.println("Test case ends");
 		
 	}
 	}
