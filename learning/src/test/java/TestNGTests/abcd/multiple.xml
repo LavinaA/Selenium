@@ -1,0 +1,8 @@
+<suite name="Ecommerce">
+  <test name="Sanity Tests">
+    <classes>
+      <class name="TestNGTests.abcd.NewTest"/>
+      <class name="TestNGTests.abcd.NewTest1"/>
+    </classes>
+  </test> 
+</suite>  

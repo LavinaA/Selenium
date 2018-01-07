@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  
+   <Properties>
+    <Property name="basepath">./logs</Property>
+  </Properties>
+  
+  <Appenders>
+  <RollingFile name="File" fileName="${basepath}/print.log"
+                       filePattern="target/rolling1/test1-${sd:type}.%i.log.gz">
+            <PatternLayout>
+              <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+            </PatternLayout>
+            <SizeBasedTriggeringPolicy size="500" />
+          </RollingFile>
+          
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+  <Logger name="alpha.Demo" level="error" additivity="false">
+      <AppenderRef ref="File"/>
+    </Logger>
+    <Root level="trace">
+    <?This is a comment and you can change "trace" to "error"	 and print only the error msgs?>
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>

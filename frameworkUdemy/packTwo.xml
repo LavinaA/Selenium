@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation tests">
+	<test name="Smoke Tests">
+		<packages>
+			<package name="testNGFiles"/>
+			/*you can mention another package name here and t will run all the classes of both the packages
+		</packages>
+	</test>
+</suite>

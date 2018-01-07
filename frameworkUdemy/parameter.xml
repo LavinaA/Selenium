@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Automation tests">
+	<test name="Smoke Tests">
+	<parameter name ="adminUserid" value="lavina"/>
+		<classes>
+			<class name="datadriven.Annotations" />
+		</classes>
+	</test>
+</suite>

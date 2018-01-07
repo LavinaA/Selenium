@@ -1,0 +1,6 @@
+2018-01-02 06:53:57,382 ERROR a.Demo [main] this is error
+2018-01-02 06:53:57,384 FATAL a.Demo [main] This is fatal error
+2018-01-02 06:54:48,295 ERROR a.Demo [main] this is error
+2018-01-02 06:54:48,297 FATAL a.Demo [main] This is fatal error
+2018-01-02 06:56:21,948 ERROR a.Demo [main] this is error
+2018-01-02 06:56:21,951 FATAL a.Demo [main] This is fatal error
