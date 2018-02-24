@@ -19,7 +19,7 @@
     </Console>
   </Appenders>
   <Loggers>
-  <Logger name="alpha.Demo" level="error" additivity="false">
+  <Logger name="beta.Demo" level="error" additivity="false">
       <AppenderRef ref="File"/>
     </Logger>
     <Root level="trace">

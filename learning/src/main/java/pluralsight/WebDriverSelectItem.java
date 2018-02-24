@@ -14,6 +14,8 @@ public class WebDriverSelectItem {
 		WebElement selectElement = driver.findElement(By.id("select1"));
 		Select select = new Select(selectElement);
 		select.selectByVisibleText("Mercedes"); 
+		/*select.selectByIndex(0);
+		select.selectByValue("");*/
 	}
 
 }

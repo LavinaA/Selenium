@@ -12,7 +12,7 @@ public class RadioButtons {
 	//	driver.findElement(By.xpath("//input[@value='Milk']")).click();
 		
 		//want to know how many radio buttons are present and based on that want to click on first index
-		//we dont have value attribute values as well
+		//we dont have value attribute values as well in html.This is handling dynamic dropdowns
 		
 		 int count =driver.findElements(By.xpath("//input[@name='group1']")).size();
 		 System.out.println(count);

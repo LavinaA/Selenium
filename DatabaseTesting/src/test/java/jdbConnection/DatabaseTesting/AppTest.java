@@ -1,4 +1,4 @@
-package com.academy.E2EProject;
+package jdbConnection.DatabaseTesting;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -10,7 +10,7 @@ public class Alerts {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.tizag.com/javascriptT/javascriptalert.php");
 		driver.findElement(By.xpath("html/body/table[3]/tbody/tr[1]/td[2]/table/tbody/tr/td/div[4]/form/input")).click();
-		driver.switchTo().alert().accept();//ok done yes
+		//driver.switchTo().alert().accept();//ok done yes
 		System.out.println(driver.switchTo().alert().getText());
 		
 		//to send text in the edit box of alert

@@ -19,6 +19,7 @@ public class HandlingMultipleWindows {
 		 
 		 
 		 java.util.Iterator<String> it=ids.iterator();
+		 //By default parent Id will be stored in first first window handle as it is the first one
 		 String parentId= it.next();
 		 String childId =it.next();
 		

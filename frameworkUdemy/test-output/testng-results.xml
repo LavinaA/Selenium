@@ -1,32 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="3" total="13" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21055" started-at="2017-12-28T11:04:01Z" finished-at="2017-12-28T11:04:22Z">
+  <suite name="Loan Department" duration-ms="124" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
     <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:testNGFiles.day2@643b1d11]" name="ploan" class="testNGFiles.day2"/>
+        <method signature="day4.MobileLoginHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="MobileLoginHomeLoan" class="testNGFiles.day4"/>
+        <method signature="day3.MobileLogincarLoan()[pri:0, instance:testNGFiles.day3@cb5822]" name="MobileLogincarLoan" class="testNGFiles.day3"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="21055" started-at="2017-12-28T11:04:01Z" finished-at="2017-12-28T11:04:22Z">
-      <class name="datadriven.globalParameter">
-        <test-method status="FAIL" signature="login()[pri:0, instance:datadriven.globalParameter@573f2bb1]" name="login" duration-ms="21010" started-at="2017-12-28T16:34:01Z" finished-at="2017-12-28T16:34:22Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+    <test name="Car Loan" duration-ms="124" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
+      <class name="testNGFiles.day1">
+        <test-method status="PASS" signature="afSyite()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="afSyite" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSyite -->
+      </class> <!-- testNGFiles.day1 -->
+      <class name="testNGFiles.day3">
+        <test-method status="PASS" signature="Bfsuite()[pri:0, instance:testNGFiles.day3@cb5822]" name="Bfsuite" is-config="true" duration-ms="14" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method status="PASS" signature="befoclas()[pri:0, instance:testNGFiles.day3@cb5822]" name="befoclas" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoclas -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobileLogincarLoan()[pri:0, instance:testNGFiles.day3@cb5822]" name="MobileLogincarLoan" duration-ms="23" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="3" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="8" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="6" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="2" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="WebloginCarLoan" duration-ms="2" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="afteclas()[pri:0, instance:testNGFiles.day3@cb5822]" name="afteclas" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteclas -->
+        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+      </class> <!-- testNGFiles.day3 -->
+    </test> <!-- Car Loan -->
+    <test name="Personal loan" duration-ms="115" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
+      <class name="testNGFiles.day1">
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="Demo" duration-ms="27" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[org.apache.http.conn.HttpHostConnectException: Connect to localhost:14657 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'ravi-Aspire-5755', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-32-generic', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:14657 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T19:05:32.194Z'
-System info: host: 'ravi-Aspire-5755', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-32-generic', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
-	at datadriven.globalParameter.login(globalParameter.java:26)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at testNGFiles.day1.Demo(day1.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -40,53 +167,55 @@ Driver info: driver.version: FirefoxDriver
 	at org.testng.TestRunner.privateRun(TestRunner.java:744)
 	at org.testng.TestRunner.run(TestRunner.java:602)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:14657 [localhost/127.0.0.1] failed: Connection refused (Connection refused)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
-	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
-	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:138)
-	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:86)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 31 more
-Caused by: java.net.ConnectException: Connection refused (Connection refused)
-	at java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
-	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
-	... 46 more
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- datadriven.globalParameter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="lastexecution" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- testNGFiles.day1 -->
+      <class name="testNGFiles.day4">
+        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="LoginAPIHomeLoan" duration-ms="5" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="MobileLoginHomeLoan" duration-ms="5" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:testNGFiles.day4@36d4b5c]" name="WebloginHomeLoan" duration-ms="10" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- testNGFiles.day4 -->
+      <class name="testNGFiles.day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testNGFiles.day2@643b1d11]" name="prerequiste" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:testNGFiles.day2@643b1d11]" name="ploan" duration-ms="2" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- testNGFiles.day2 -->
+    </test> <!-- Personal loan -->
+  </suite> <!-- Loan Department -->
 </testng-results>
