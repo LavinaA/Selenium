@@ -1,221 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="3" total="13" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="124" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
+  <suite name="Default suite" duration-ms="107" started-at="2018-03-14T06:01:58Z" finished-at="2018-03-14T06:01:59Z">
     <groups>
-      <group name="Smoke">
-        <method signature="day2.ploan()[pri:0, instance:testNGFiles.day2@643b1d11]" name="ploan" class="testNGFiles.day2"/>
-        <method signature="day4.MobileLoginHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="MobileLoginHomeLoan" class="testNGFiles.day4"/>
-        <method signature="day3.MobileLogincarLoan()[pri:0, instance:testNGFiles.day3@cb5822]" name="MobileLogincarLoan" class="testNGFiles.day3"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test name="Car Loan" duration-ms="124" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
-      <class name="testNGFiles.day1">
-        <test-method status="PASS" signature="afSyite()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="afSyite" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+    <test name="Default test" duration-ms="107" started-at="2018-03-14T06:01:58Z" finished-at="2018-03-14T06:01:59Z">
+      <class name="testNGFiles.dependencyAnnot">
+        <test-method status="PASS" signature="OpeningBrowser()[pri:0, instance:testNGFiles.dependencyAnnot@4de8b406]" name="OpeningBrowser" duration-ms="23" started-at="2018-03-14T11:31:58Z" finished-at="2018-03-14T11:31:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afSyite -->
-      </class> <!-- testNGFiles.day1 -->
-      <class name="testNGFiles.day3">
-        <test-method status="PASS" signature="Bfsuite()[pri:0, instance:testNGFiles.day3@cb5822]" name="Bfsuite" is-config="true" duration-ms="14" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
+        </test-method> <!-- OpeningBrowser -->
+        <test-method status="PASS" signature="Payment()[pri:0, instance:testNGFiles.dependencyAnnot@4de8b406]" name="Payment" duration-ms="3" started-at="2018-03-14T11:31:59Z" finished-at="2018-03-14T11:31:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Bfsuite -->
-        <test-method status="PASS" signature="befoclas()[pri:0, instance:testNGFiles.day3@cb5822]" name="befoclas" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
+        </test-method> <!-- Payment -->
+        <test-method status="PASS" signature="TimeRelated()[pri:0, instance:testNGFiles.dependencyAnnot@4de8b406]" name="TimeRelated" duration-ms="23" started-at="2018-03-14T11:31:59Z" finished-at="2018-03-14T11:31:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- befoclas -->
-        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
+        </test-method> <!-- TimeRelated -->
+        <test-method status="PASS" signature="FlightBooking()[pri:0, instance:testNGFiles.dependencyAnnot@4de8b406]" name="FlightBooking" duration-ms="5" started-at="2018-03-14T11:31:59Z" depends-on-methods="testNGFiles.dependencyAnnot.OpeningBrowser" finished-at="2018-03-14T11:31:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeevery -->
-        <test-method status="PASS" signature="MobileLogincarLoan()[pri:0, instance:testNGFiles.day3@cb5822]" name="MobileLogincarLoan" duration-ms="23" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLogincarLoan -->
-        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="3" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterevery -->
-        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeevery -->
-        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="8" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firstsetusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firstpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignoutcarLoan -->
-        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeevery -->
-        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterevery -->
-        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="6" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[secondsetusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secondpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignoutcarLoan -->
-        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterevery -->
-        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeevery -->
-        <test-method status="PASS" signature="MobilesignoutcarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="MobilesignoutcarLoan" duration-ms="2" started-at="2018-02-11T20:24:37Z" data-provider="getData" finished-at="2018-02-11T20:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[thirdsetusername]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[thirdpassword]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobilesignoutcarLoan -->
-        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterevery -->
-        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:testNGFiles.day3@cb5822]" name="WebloginCarLoan" duration-ms="2" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[carloan.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebloginCarLoan -->
-        <test-method status="PASS" signature="beforeevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="beforeevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeevery -->
-        <test-method status="PASS" signature="afteclas()[pri:0, instance:testNGFiles.day3@cb5822]" name="afteclas" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afteclas -->
-        <test-method status="PASS" signature="afterevery()[pri:0, instance:testNGFiles.day3@cb5822]" name="afterevery" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterevery -->
-      </class> <!-- testNGFiles.day3 -->
-    </test> <!-- Car Loan -->
-    <test name="Personal loan" duration-ms="115" started-at="2018-02-11T14:54:36Z" finished-at="2018-02-11T14:54:37Z">
-      <class name="testNGFiles.day1">
-        <test-method status="FAIL" signature="Demo()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="Demo" duration-ms="27" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at testNGFiles.day1.Demo(day1.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="lastexecution()[pri:0, instance:testNGFiles.day1@2ef5e5e3]" name="lastexecution" is-config="true" duration-ms="0" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastexecution -->
-      </class> <!-- testNGFiles.day1 -->
-      <class name="testNGFiles.day4">
-        <test-method status="PASS" signature="LoginAPIHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="LoginAPIHomeLoan" duration-ms="5" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAPIHomeLoan -->
-        <test-method status="PASS" signature="MobileLoginHomeLoan()[pri:0, instance:testNGFiles.day4@36d4b5c]" name="MobileLoginHomeLoan" duration-ms="5" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-        <test-method status="PASS" signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:testNGFiles.day4@36d4b5c]" name="WebloginHomeLoan" duration-ms="10" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[personalloan.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- WebloginHomeLoan -->
-      </class> <!-- testNGFiles.day4 -->
-      <class name="testNGFiles.day2">
-        <test-method status="PASS" signature="prerequiste()[pri:0, instance:testNGFiles.day2@643b1d11]" name="prerequiste" is-config="true" duration-ms="1" started-at="2018-02-11T20:24:36Z" finished-at="2018-02-11T20:24:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- prerequiste -->
-        <test-method status="PASS" signature="ploan()[pri:0, instance:testNGFiles.day2@643b1d11]" name="ploan" duration-ms="2" started-at="2018-02-11T20:24:37Z" finished-at="2018-02-11T20:24:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ploan -->
-      </class> <!-- testNGFiles.day2 -->
-    </test> <!-- Personal loan -->
-  </suite> <!-- Loan Department -->
+        </test-method> <!-- FlightBooking -->
+      </class> <!-- testNGFiles.dependencyAnnot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

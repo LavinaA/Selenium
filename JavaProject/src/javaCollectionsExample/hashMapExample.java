@@ -12,7 +12,8 @@ public class hashMapExample {
 		//It places the value in key value pair
 		//It accepts duplicate values
 		//It overwrites any key value with another value with same key
-		
+		//It does not maintain insertion order and LinkedHashMap does mantain insertion order
+		//Hash map accepts one null value
 		HashMap<Integer,String> hm=new HashMap<Integer,String>();
 		//here add method is not present
 		hm.put(0,"Ravi");
@@ -37,6 +38,7 @@ public class hashMapExample {
 	//If you do i.next here it will give error as its stored as both key and value and cannot determine what to retrieve
 	//Hence change it to Map again and then use getkey and getvalue
 		/*System.out.println(i.next());	*/
+			//Entry is a subinterface of Map that contains getKey and getValue methods	
 		Map.Entry mp = (Map.Entry)i.next();
 		System.out.println(mp.getKey());
 		System.out.println(mp.getValue());

@@ -20,7 +20,7 @@ public class dependencyAnnot {
 		System.out.println("Flight booking");
 	}
 	//When you wantt o skip a particular method from execution
-	@Test(enabled=false)
+	@Test
 	public void Payment()
 	{
 		//This opens the Browser
@@ -33,7 +33,7 @@ public class dependencyAnnot {
 	public void TimeRelated()
 	{
 		//This opens the Browser
-		System.out.println("exceuting payment method");
+		System.out.println("exceuting timerelated method");
 
 	}
 

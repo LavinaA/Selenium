@@ -13,9 +13,9 @@
           <methods>
               <include name ="Demo"/>
           </methods>
+        </class>  
           
-          
-</class>
+
       <class name="testNGFiles.day2"/>
       <class name ="testNGFiles.day4"/>
       

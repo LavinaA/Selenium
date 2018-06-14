@@ -5,26 +5,33 @@
     <Property name="basepath">./logs</Property>
   </Properties>
   
+  <?With property file you give base path to come to Project level?>
+  
+  
   <Appenders>
-  <RollingFile name="File" fileName="${basepath}/print.log"
-                       filePattern="target/rolling1/test1-${sd:type}.%i.log.gz">
-            <PatternLayout>
-              <pattern>%d %p %c{1.} [%t] %m%n</pattern>
-            </PatternLayout>
-            <SizeBasedTriggeringPolicy size="500" />
-          </RollingFile>
-          
-    <Console name="Console" target="SYSTEM_OUT">
-      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-    </Console>
-  </Appenders>
+	<RollingFile name="File" fileName="${basepath}/print.log"
+		filePattern="target/rolling1/test1-${sd:type}.%i.log.gz">
+		<PatternLayout>
+			<pattern>%d %p %c{1.} [%t] %m%n</pattern>
+		</PatternLayout>	
+		<SizeBasedTriggeringPolicy size="500" />
+	</RollingFile>
+
+	<Console name="Console" target="SYSTEM_OUT">
+		<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+	</Console>
+</Appenders>
+  
   <Loggers>
-  <Logger name="beta.Demo" level="error" additivity="false">
-      <AppenderRef ref="File"/>
-    </Logger>
-    <Root level="trace">
+	<Logger name="beta.Demo" level="error" additivity="false">
+  <?If for any particular package you want "error messages",then you can define that packagename here,for rest of the packages it will be one defined in root level?>
+		<AppenderRef ref="File" />
+	</Logger>
+
+	<Root level="trace">
     <?This is a comment and you can change "trace" to "error"	 and print only the error msgs?>
-      <AppenderRef ref="Console"/>
-    </Root>
-  </Loggers>
+		<AppenderRef ref="Console" />
+      <?change AppenderRef ref="File" to print it in File?>
+	</Root>
+</Loggers>
 </Configuration>

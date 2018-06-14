@@ -11,9 +11,9 @@ public class tableHandling {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.cricbuzz.com/live-cricket-scorecard/19195/ind-vs-sl-3rd-odi-sri-lanka-tour-of-india-2017");
 		WebElement table =driver.findElement(By.cssSelector("div[class='cb-col cb-col-100 cb-ltst-wgt-hdr']"));
-	   int rowcount=table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms']")).size();
+	 //  int rowcount=table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms']")).size();
 	   
-	   //to tranverse to third child syntax is like this div:nth-child(3)
+	   //to tranverse from parent to third child syntax is like this div:nth-child(3)
 	   //Note there is a space before div tag
 	   int count =table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)")).size();
 	   int sum=0;
@@ -33,7 +33,7 @@ public class tableHandling {
 	 int totalSumValue=sum+extrasInteger;
 	 
 	 
-	 
+	 //Traverse from one sibling to other sibling
 	 String actualTotal=driver.findElement(By.xpath("//div[text()='Total']/following-sibling::div")).getText();  
 	 int actualTotalInteger = Integer.parseInt(actualTotal);
 	 

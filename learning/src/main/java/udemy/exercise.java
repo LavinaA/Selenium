@@ -26,7 +26,8 @@ public class exercise {
 		//Print all the names of the links present on 2nd colum of footer
 		for(int i =0;i<(foo2.findElements(By.tagName("a")).size());i++){
 
-			//Other Scenario is to click on eBay Policies given condiation that we dont know where the link is located on the webpage and after it is clicked verify with title and text present on the page	
+			//Other Scenario is to click on eBay Policies given condiation that we dont know where the link is  
+			//located on the webpage and after it is clicked verify with title and text present on the page	
 			//System.out.println(foo2.findElements(By.tagName("a")).get(i).getText());
 			if(foo2.findElements(By.tagName("a")).get(i).getText().contains("eBay Policies")){
 				//System.out.println("Before Clicking the link EBay Policies");
